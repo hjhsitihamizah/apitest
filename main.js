@@ -4,7 +4,7 @@ $("#submitBtn").click(function() {
     const apiData = {
         url: 'https://pokeapi.co/api/v2/',
         type: 'pokemon',
-        id: str,
+        id: str.toLowerCase(),
     }
     const { url, type, id } = apiData
 

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PokeAPI</title>
     <!-- ajax  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- bootstrap 4  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
@@ -18,7 +19,8 @@
         <p>The application will show the image, height and weight of the pokemon based on its name or ID</p>
         <div class="row">
             <span><p>Enter the name of ID of the Pokemon: </p></span>
-            <span><input id="inputPoke" type="text" class="inputPoke"></span>
+            <span><input id="inputPoke" type="text" placeholder="e.g. Pikachu or '25'"></span>
+            <span><button id="submitBtn" type="button">Click</button></span>
         </div>
         <p id="woohoo"></p>
         <div class="square">
@@ -27,5 +29,4 @@
     </div>
     <script src="main.js"></script>
 </body>
-
 </html>
